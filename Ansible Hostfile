@@ -1,0 +1,10 @@
+
+ [servers]
+ Ansible_1 ansible_host=<IP address of slave1>
+ Ansible_2 ansible_host=<IP address of slave2>
+ Ansible_3 ansible_host=<IP address of slave3>
+
+ [servers:vars]
+ ansible_python_interpreter=/usr/bin/python3
+ ansible_user=ubuntu
+ ansible_ssh_private_key_file=/home/ubuntu/keys2/ansible_sydney.pem
